@@ -1,0 +1,28 @@
+.one {
+	background: tomato;
+}
+.two {
+	background: yellow;
+}
+.three {
+	background: blue;
+}
+.four {
+	background: aqua;
+}
+.five {
+	background: pink;
+}
+.six {
+	background: purple;
+}
+.item {
+	color: white;
+	text-align: center;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 30px repeat(3, 1fr) 30px;
+	/*grid-template-rows: repeat(3, 1fr);*/
+}
